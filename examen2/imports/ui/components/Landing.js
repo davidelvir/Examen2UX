@@ -20,7 +20,7 @@ class LandingPage extends Component {
 
   render() {
     return (
-      <div id="profil" style={{ marginLeft: '160px', marginTop: ' 160px' }} >
+      <div >
         
           {this.props.currentUser ?
             <LandingPageAuth />
